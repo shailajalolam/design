@@ -1,0 +1,680 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+    <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+    
+    <link rel="stylesheet" type="text/css" href="/css/mycss.css" />
+    <style type="text/css">
+        .ui-page {
+    height: 100px;
+    width: 500px;
+    background-color:#333333;
+}
+    .ui-header{
+        background: #1ABC9C !important;
+    }
+      .ui-footer {
+        background: #1ABC9C !important;
+    }
+      
+
+hr.style13 
+ {
+	height: 10px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px #1ABC9C inset;
+}
+
+hr {
+  padding: 0;
+  margin: 0 0 -1.5em 0;
+  border: none;
+  border-top: 1px solid #999;
+  color: #1ABC9C;
+  text-align: center;
+}
+hr:after {
+  display: inline-block;
+  position: relative;
+  top: -0.58em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background:#3d3d3d;
+}
+
+hr:nth-of-type(1):after { content: "\263c"; }
+
+
+    </style>
+</head>
+
+<body>
+<!--#1ABC9C \ #333333 -->
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <!--<h1>Welcome To My Homepage</h1>-->
+            <div data-role="header">
+                <h1>MyKitchen</h1>
+            </div>
+    <div data-role="navbar">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#pagetwo">Page Two</a></li>
+                       
+                    </ul></div>
+
+<!-- Page one -->
+            <div data-role="main" class="ui-content ui-body-a">
+            <p style="text-align: justify; font-weight: normal";>Telugu cuisine is a cuisine of South India native to the Telugu people from the states of Andhra Pradesh and Telangana.
+                Generally known for its tangy, hot and spicy taste, the cooking is very diverse due to the vast spread of the people
+                and varied topological regions. We learned to cook with just a few spices and herbs in order not to compromise the taste of the
+                vegetables, grains, and lentils. The combination of all recipes will make it easier for you to understand the fundamentals in cooking
+                Indian dishes. Indian cooking is not complicated and will show you creative variations that you can experiment with.
+                Every Indian states has unique vegetarian and non-vergetairan dishes to offer.
+                </p>
+                
+            <img src="food-banner.jpg" alt="Fjords" width="380" height="150" align="middle">
+            <br />
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#pagetwo" class="ui-btn" style="color:white; background-color:lightseagreen;" data-transition="slide">
+                        <img src="rice.png">
+                            <h2> Welcome MyKitchen</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a></li></ul></div></div>
+
+<!-- Footer side -->
+            <div data-role="footer">
+                <h1>Thankyou</h1>
+                    </div>        
+            </div>
+        
+
+
+ <!-- sescond page -->
+        <div data-role="page" id="pagetwo">
+            <div data-role="header" >
+                <h1>Popular Andhra Recipes</h1>
+            </div>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#pageone">Home</a></li>
+                    <li><a href="#pagetwo">Page Two</a></li>
+                    <!--<li><a href="#">Search</a></li>-->
+                </ul>
+            </div>
+            <div data-role="main" class="ui-content">
+                <p style="text-align: justify;">
+                    Andhra Pradesh state is the leading producer of red chili, rice and Telangana state is millets in India influences the liberal use of spices —
+                    making the food one of the richest and spiciest in the world. Vegetarian as well as meat and seafood (coastal areas) feature prominently on the menus.
+                </p>
+
+            <hr>
+                <!--<hr class="style13">-->
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="slide">
+                            <img src="lemon-rice.png">
+                            <h2> Delicious Rice</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pageeight" class="ui-btn" style="color:white; background-color:#000000" ;>
+                            <img src="lemon-rice.png">
+                            <h2>Biryani Recipes</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>
+                            <img src="lemon-rice.png">
+                            <h2>Curry Recipes</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>
+                            <img src="lemon-rice.png">
+                            <h2>Chuntney Recipes</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>
+                            <img src="lemon-rice.png">
+                            <h2> Sweet Recipes</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a>
+                    </li>
+                </ul>
+                <!--<hr class="style13">-->
+
+                <div data-role="footer">
+                    <h1>Thankyou</h1>
+                </div>
+            </div></div>
+
+<!--third page-->
+
+    <div data-role="page" id="pagethree">
+        <div data-role="header" data-theme="b">
+            <h1>Welcome To My kitchen</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Rice is the staple food in the whole of South Inida. Its spicy and aromatic flavors will boost your metabolism in the most delicious way. </p>
+            <hr class="style13">
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagefour" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="lemon-rice" width="190" height="180" align=""><h2> Lemon Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="coriander-rice" width="190" height="180" align=""><h2>Coriander Rice </h2>
+                        <p>Coriander rice is a delicious and easy south Indian dish.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagesix" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="pulihora-rice" width="190" height="180" align=""><h2> Pulihora Rice</h2>
+                        <p>Pulihora is usually cooked on special occasions and festive days.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageseven" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="tomato-rice" width="190" height="180" align=""><h2> Tomato Rice</h2>
+                        <p>Tomato rice is a vey delicious and simple recipe of south Indian dish.</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+        <!-- class="style13">-->
+
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+            </div>
+        </div>
+
+<!-- Foorter side-->
+            <div data-role="footer" data-theme="b">
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+  
+
+
+<!-- Fourth Page -->
+
+<div data-role="main" id="pagefour"><!--data-dialog="true"-->
+            <div data-role="header" data-theme="b">
+                <h1>I'm A Lemon Rice!</h1>
+            </div>
+            <div data-role="main" class="ui-content">
+                <img src="lemon-rice.png" alt="Fjords" width="120" height="100" align="">
+                
+                <p>Lemon rice is a delicious south Indian dish. Lemon juice gives a very refreshing and tangy flavor to the rice.</p>
+                <p><b>Ingredients used in Lemon Rice</b></p>
+                <p>• 1.5 cups rice or left over rice</p>
+                <p>• salt as needed, 1 large sprig of curry leaves </p>
+                <p>• 1 or 2 tbsp. cooking oil, 1 tbsp mustard and urad dal</p>
+                <p>• 1 half tsp chana dal and 2 to 4 tbsp. peanuts or cashews</p>
+                <p>• Half tbsp turmeric powder and 1 to 2 dried red chilies broken</p>
+                <p>1 to 2 green chili slit and pinch of hing</p>
+       <p><b>Preparation Method:</b>
+                <p>•	Lemon rice can be done with fresh cooked rice or with left over rice.</p>
+                <p>•	If you are using uncooked rice then start by washing and soaking rice and dal, separately for 15 minutes. Once soaked, wash, drain the water and keep aside. Drain the rice and put it into the deep pan. Add water, oil, and salt, and bring to a boil. Once the water is boiling reduce the heat to low and cover the pan.</p>
+                <p>•	Cook about 15 minutes, or until the rice is tender and the water has evaporated. Turn off the heat and fluff the rice with a fork. Keep the cooked rice aside.</p>
+                <p>•	In a small bowl, mix lemon juice with turmeric powder and salt and keep aside.</p>
+                <p>•	Add cumin seeds and mustard seeds after seeds crack add red chili, curry leaves, and green chilies, and stir for a few seconds, and Add the chana dal, Peanuts or Cashews. 
+                 and lemon juice mixture. Simmer for 2/3 mints. Stirring occasionally. Mix it well.</p>
+                <p>•	Now, It’s time to add the cooked rice and sprinkle salt.</p>
+                <p>•	Mix gently for about 1 minute and your lemon rice is ready to serve!!</p>
+                <p>•	Garnish with fresh coriander leaves and Serve with a Raita/Pickle and Poppadums.</p>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                    </div>
+                </div>
+            </div>
+
+    <div data-role="footer" data-theme="b">
+        <h1>Thankyou</h1>
+    </div></div>
+
+<!-- Fifth Page -->
+
+    <div data-role="page"  id="pagefive"><!--data-dialog="true"-->
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Coriander Rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="lemon-rice.png" alt="Fjords" width="85" height="80" align="middle">
+            <p>Coriander rice is simple and quick rice recipe with fresh coriander leaves.</p>
+            <p><b>Ingredients used in Coriander Rice</b></p>
+            <p>• Salt - to taste.</p>
+            <p>• Potato cubed, Carrot cubed Green Peas - 1 cup </p>
+            <p>• Ginger garlic paste - 1 tea spoon.</p>
+            <p>• Cardamom - 1 no.</p>
+            <p>• Cinnamon - 1 small.</p>
+            <p>• Cloves - 1 no.</p>
+            <p>• Rice - 250 grams.</p>
+            <p>• Green coriander - 1 bunch.</p>
+            <p>• Green chilies - 4(as required)</p>
+            <p>• Ghee and oil - as required.</p>
+            <p>• Onions - 1 no</p>
+    <p><b>Method:</b></p>
+    <p>• Soak the basmati or sona masoori rice for an hour.</p><p>Meanwhile chop all veggies and make coraner paste.</p>        
+    <p>• First put a pan on stove and add some ghee and some oil and add cloves,cinnamon and cardamom then fry for a while.</p>
+    <p>• Add chopped onions and slit green chilies and fry them for 3 minutes then add gingergarlic paste and saute for 1 minute.</p>
+    <p> • Then add the coriander leaves to it and fry again for 2 minutes.</p>
+    <p>• Remove from fire and let it be cool for 5 minutes and grind all the ingredients, Make smooth paste out of and keep it aside. Add some oil in the same pan and add green peas,
+fry for 2 minutes and add cashewnuts. After frying them add the gound paste, stir them well and fry for 1 minute.</p>
+    <p> • Then add the soaked rice then fry for 2 minutes and then put them in to the rice cooker and pour water for rice to cook.</p><p>•	Serve with a  Poppadums.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+                    
+                    
+<!-- Sixth Page -->
+
+    <div data-role="page"  id="pagesix"><!--data-dialog="true"-->
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Pulihora rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="food-banner.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Pulihora is usually cooked on special occasions and festive days. It is also given as prasadam in some temples; devotees queue to get Pulihora after darshana.</p>
+    <p><b>Ingredients used in Pulihora RICE</b>
+            <p>• Raw Rice - 1 cup</p>
+            <p>• Tamarind - lemon sized ball </p>
+            <p>• Mustard seeds - 1 tsp</p>
+            <p>• Turmeric powder - 1/4 tsp</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Sesame seed Oil for mixing with cooked rice - 1 tbsp(optional)</p>
+            <p>• Peanuts - 2 tbsp, Generous pinch of Hing(optional)</p>
+            <p>• Green chillies - 2/3 (break it into 2 pieces)</p>
+            <p>• Red chillies - 6 (break it into 2 pieces)</p>
+            <p>• Ginger (finely chopped) - 2 tsp</p>
+            <p>• 2 sprig of Curry leaves, Roasted sesame seeds powder(optional)</p>
+    <p><b>Preparation Method:</b>
+            <p>•	Cook rice in such a way that the grains are separate. Spread cooked rice on a plate, add crushed curry leaves to it when it is hot for flavor. Leave it to cool.(Do not make the rice mushy)!</p>
+            <p>•	Soak tamarind in hot water for 20-30 minutes and extract 1 cup of thick tamarind juice. Discard the pulp.</p>
+            <p>•	Heat the pan with oil, add mustard seeds, when it splutters, add urad dal, bengal gram and peanuts. Saute till dal changes to light golden brown. Then add green chillies, finely chopped ginger and saute for a few seconds.</p>
+            <p>•	Then add red chillies, curry leaves and fry for a few seconds. Now add tamarind extract, needed salt, hing and keep it on medium flame. Cook till the mixture thickens otherwise pulihora will be very moist.</p>
+            <p>•	Off the heat, add sesame seeds owder to the rice, give a quick stir do not let the mixture fry in the pan. Ass the seasoning to the rice. Mix well, Do not mix while the rice is hot.</p>
+            <p>•	Andhra pulihora is ready to be served with papads/appalam or fresh homemade curd.</p>
+            <p>•	<b>Note:</b>The tamarind paste or pulikachal can be stored in a bottle and refrigerated for a week. Mix it with rice when needed.</p>
+            
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>          
+    
+
+<!-- Seven Page -->
+<div data-role="page"  id="pageseven"><!--data-dialog="true"-->
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato rice!</h1>
+        </div>
+    <div data-role="main" class="ui-content">
+        <img src="food-banner.jpg" alt="Fjords" width="85" height="80" align="middle">
+        <p>Tomato rice is a very delicious, simple, easy and flavourful south indian recipe. This can be maded in a pressure cooker or a pot. </p>
+    <p><b>Ingredients used in Tomato RICE</b></p>
+        <p>• 1 cup regular or basmati rice(water as required)</p>
+        <p>• 3 medium to large tomatoes, 1 medium onion</p>
+        <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+        <p>• Half teaspoon mustard seeds, 4 to 5 methi seeds</p>
+        <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+        <p>• Half inch cinnamon, 2 green cardamoms</p>
+        <p>• 2 to 3 cloves, 6 to 7 curry leaves</p>
+        <p>• Half teaspoon turmeric powder and red chili powder</p>
+        <p>• Half teaspoon pav bahji masala and black pepper powder</p>
+        <p>• Half teaspoon coriander powder and cumin powder</p>
+        <p>• 2 sprig of Curry leaves, One cup chopped coriander leaves</p>
+        <p>• 1.75 cups water, 2 tablespoon oil/ghee and salt as required</p>
+     <p><b>Preparation Method:</b>
+        <p>•	Heat a pressure cooker or a pot with ghee or oil.</p>
+        <p>•	Saute cloves, cinnamon, cumin, curry leaves and bay leaf until they begin to crackle.</p>
+        <p>•	Add the onions and fry them until golden and Saute the ginger paste now just for few seconds.</p>
+        <p>•	Add in the tomatoes, salt and turmeric. Saute for 2 to 3 mins.</p>
+        <p>•	Cook covered until soft and Add red chili powder, pav bhaji masala and garam masala powder.</p>
+        <p>•	Mix and cook until the mixture turns completely soft and mushy and Pour water according to the rice.</p>
+        <p>•	Stir and check salt. If needed add more. Bring the water to a rolling boil, add the drained rice.</p>
+        <p>•	If cooking in a pressure cooker : Stir and cover the cooker with lid. Cook on a mdeium heat. Allow to whistle once. When the pressure goes down, open the lid. Fluff up the rice.</p>
+        <p>•	If making in pot: Cook until the water has almost been absorbed. When the rice is till soggy, lower the flame completely and cover with a lid. Allow to cook completely. If needed sprinkle some warm water and stir. Cook until the tomato rice is completely cooked.</p>
+        <p>•	Add chopped coriander leaves and Tomato rice is ready to serve hot or warm. Serve tomato rice with appalams or chips or with a side raita.</p>
+
+        <div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+            </div>
+        </div>
+    </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>     
+     
+
+ <!--eight page-->
+
+    <div data-role="page" id="pageeight">
+        <div data-role="header" data-theme="b">
+            <h1>Famous Briyani</h1>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>Biryani is considered to be a dish of Indian origin, South India has more varieties of biryani than any other part of the subcontinent. 
+            Also, rice is more a staple food in South India than in the rest of India.  It is generally made with spices, rice, and meat.</p>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagenine" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="Fjords" width="85" height="80" align="middle"><h2> Chicken dum Biryani</h2>
+                        <p>Chicken Biryani is the most ordered and liked rice preparation in India.</p>
+                    </a></li></ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageten" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="Fjords" width="85" height="80" align="middle"><h2> Hyderabadi Mutton Biryani</h2>
+                        <p>Hyderabadi Mutton Biryani or mutton biryani recipe is a spicy, fragrant and colourful variant of biryani in India.
+</p>
+                    </a></li></ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageeleven" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png" alt="Fjords" width="85" height="80" align="middle"><h2>  Vegetarian Biryani</h2>
+                        <p>Vegetable Biryani prepared in a traditional Hyderabadi Dum Biryani style is a Vegetarian's dream come true for enjoying the flavorful slow cooked dum biryani.</p>
+                    </a></li></ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwleve" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Fish Biryani </h2>
+                        <p>This dum fish biryani is an easy, simple and delicious in hyderbadi style</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div></div>
+
+
+
+<!-- Nine Page --><!-- data-dialog="true" -->
+    <div data-role="page" id="pagenine">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="food-banner.jpg" alt="" width="85" height="80" align="middle">
+            <p>Tomato rice is a very delicious, simple, easy and flavourful south indian recipe. This can be maded in a pressure cooker or a pot. </p>
+            <p><b>Ingredients used in Tomato RICE</b></p>
+            <p>• 1 cup regular or basmati rice(water as required)</p>
+            <p>• 3 medium to large tomatoes, 1 medium onion</p>
+            <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+            <p>• Half teaspoon mustard seeds, 4 to 5 methi seeds</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Half inch cinnamon, 2 green cardamoms</p>
+            <p>• 2 to 3 cloves, 6 to 7 curry leaves</p>
+            <p>• Half teaspoon turmeric powder and red chili powder</p>
+            <p>• Half teaspoon pav bahji masala and black pepper powder</p>
+            <p>• Half teaspoon coriander powder and cumin powder</p>
+            <p>• 2 sprig of Curry leaves, One cup chopped coriander leaves</p>
+            <p>• 1.75 cups water, 2 tablespoon oil/ghee and salt as required</p>
+            <p><b>Preparation Method:</b>
+            <p>•	Heat a pressure cooker or a pot with ghee or oil.</p>
+            <p>•	Saute cloves, cinnamon, cumin, curry leaves and bay leaf until they begin to crackle.</p>
+            <p>•	Add the onions and fry them until golden and Saute the ginger paste now just for few seconds.</p>
+            <p>•	Add in the tomatoes, salt and turmeric. Saute for 2 to 3 mins.</p>
+            <p>•	Cook covered until soft and Add red chili powder, pav bhaji masala and garam masala powder.</p>
+            <p>•	Mix and cook until the mixture turns completely soft and mushy and Pour water according to the rice.</p>
+            <p>•	Stir and check salt. If needed add more. Bring the water to a rolling boil, add the drained rice.</p>
+            <p>•	If cooking in a pressure cooker : Stir and cover the cooker with lid. Cook on a mdeium heat. Allow to whistle once. When the pressure goes down, open the lid. Fluff up the rice.</p>
+            <p>•	If making in pot: Cook until the water has almost been absorbed. When the rice is till soggy, lower the flame completely and cover with a lid. Allow to cook completely. If needed sprinkle some warm water and stir. Cook until the tomato rice is completely cooked.</p>
+            <p>•	Add chopped coriander leaves and Tomato rice is ready to serve hot or warm. Serve tomato rice with appalams or chips or with a side raita.</p>
+
+            <!--<div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>-->
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- Ten Page -->
+    <div data-role="page" data-dialog="true" id="pageten">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="food-banner.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Tomato rice is a very delicious, simple, easy and flavourful south indian recipe. This can be maded in a pressure cooker or a pot. </p>
+            <p><b>Ingredients used in Tomato RICE</b></p>
+            <p>• 1 cup regular or basmati rice(water as required)</p>
+            <p>• 3 medium to large tomatoes, 1 medium onion</p>
+            <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+            <p>• Half teaspoon mustard seeds, 4 to 5 methi seeds</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Half inch cinnamon, 2 green cardamoms</p>
+            <p>• 2 to 3 cloves, 6 to 7 curry leaves</p>
+            <p>• Half teaspoon turmeric powder and red chili powder</p>
+            <p>• Half teaspoon pav bahji masala and black pepper powder</p>
+            <p>• Half teaspoon coriander powder and cumin powder</p>
+            <p>• 2 sprig of Curry leaves, One cup chopped coriander leaves</p>
+            <p>• 1.75 cups water, 2 tablespoon oil/ghee and salt as required</p>
+            <p><b>Preparation Method:</b>
+            <p>•	Heat a pressure cooker or a pot with ghee or oil.</p>
+            <p>•	Saute cloves, cinnamon, cumin, curry leaves and bay leaf until they begin to crackle.</p>
+            <p>•	Add the onions and fry them until golden and Saute the ginger paste now just for few seconds.</p>
+            <p>•	Add in the tomatoes, salt and turmeric. Saute for 2 to 3 mins.</p>
+            <p>•	Cook covered until soft and Add red chili powder, pav bhaji masala and garam masala powder.</p>
+            <p>•	Mix and cook until the mixture turns completely soft and mushy and Pour water according to the rice.</p>
+            <p>•	Stir and check salt. If needed add more. Bring the water to a rolling boil, add the drained rice.</p>
+            <p>•	If cooking in a pressure cooker : Stir and cover the cooker with lid. Cook on a mdeium heat. Allow to whistle once. When the pressure goes down, open the lid. Fluff up the rice.</p>
+            <p>•	If making in pot: Cook until the water has almost been absorbed. When the rice is till soggy, lower the flame completely and cover with a lid. Allow to cook completely. If needed sprinkle some warm water and stir. Cook until the tomato rice is completely cooked.</p>
+            <p>•	Add chopped coriander leaves and Tomato rice is ready to serve hot or warm. Serve tomato rice with appalams or chips or with a side raita.</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+
+
+
+    <!-- eleven Page -->
+    <div data-role="page" data-dialog="true" id="pageeleven">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="food-banner.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Tomato rice is a very delicious, simple, easy and flavourful south indian recipe. This can be maded in a pressure cooker or a pot. </p>
+            <p><b>Ingredients used in Tomato RICE</b></p>
+            <p>• 1 cup regular or basmati rice(water as required)</p>
+            <p>• 3 medium to large tomatoes, 1 medium onion</p>
+            <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+            <p>• Half teaspoon mustard seeds, 4 to 5 methi seeds</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Half inch cinnamon, 2 green cardamoms</p>
+            <p>• 2 to 3 cloves, 6 to 7 curry leaves</p>
+            <p>• Half teaspoon turmeric powder and red chili powder</p>
+            <p>• Half teaspoon pav bahji masala and black pepper powder</p>
+            <p>• Half teaspoon coriander powder and cumin powder</p>
+            <p>• 2 sprig of Curry leaves, One cup chopped coriander leaves</p>
+            <p>• 1.75 cups water, 2 tablespoon oil/ghee and salt as required</p>
+            <p><b>Preparation Method:</b>
+            <p>•	Heat a pressure cooker or a pot with ghee or oil.</p>
+            <p>•	Saute cloves, cinnamon, cumin, curry leaves and bay leaf until they begin to crackle.</p>
+            <p>•	Add the onions and fry them until golden and Saute the ginger paste now just for few seconds.</p>
+            <p>•	Add in the tomatoes, salt and turmeric. Saute for 2 to 3 mins.</p>
+            <p>•	Cook covered until soft and Add red chili powder, pav bhaji masala and garam masala powder.</p>
+            <p>•	Mix and cook until the mixture turns completely soft and mushy and Pour water according to the rice.</p>
+            <p>•	Stir and check salt. If needed add more. Bring the water to a rolling boil, add the drained rice.</p>
+            <p>•	If cooking in a pressure cooker : Stir and cover the cooker with lid. Cook on a mdeium heat. Allow to whistle once. When the pressure goes down, open the lid. Fluff up the rice.</p>
+            <p>•	If making in pot: Cook until the water has almost been absorbed. When the rice is till soggy, lower the flame completely and cover with a lid. Allow to cook completely. If needed sprinkle some warm water and stir. Cook until the tomato rice is completely cooked.</p>
+            <p>•	Add chopped coriander leaves and Tomato rice is ready to serve hot or warm. Serve tomato rice with appalams or chips or with a side raita.</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+
+
+    <!-- Twleve Page -->
+    <div data-role="page" data-dialog="true" id="pagetwleve">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="food-banner.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Tomato rice is a very delicious, simple, easy and flavourful south indian recipe. This can be maded in a pressure cooker or a pot. </p>
+            <p><b>Ingredients used in Tomato RICE</b></p>
+            <p>• 1 cup regular or basmati rice(water as required)</p>
+            <p>• 3 medium to large tomatoes, 1 medium onion</p>
+            <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+            <p>• Half teaspoon mustard seeds, 4 to 5 methi seeds</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Half inch cinnamon, 2 green cardamoms</p>
+            <p>• 2 to 3 cloves, 6 to 7 curry leaves</p>
+            <p>• Half teaspoon turmeric powder and red chili powder</p>
+            <p>• Half teaspoon pav bahji masala and black pepper powder</p>
+            <p>• Half teaspoon coriander powder and cumin powder</p>
+            <p>• 2 sprig of Curry leaves, One cup chopped coriander leaves</p>
+            <p>• 1.75 cups water, 2 tablespoon oil/ghee and salt as required</p>
+            <p><b>Preparation Method:</b>
+            <p>•	Heat a pressure cooker or a pot with ghee or oil.</p>
+            <p>•	Saute cloves, cinnamon, cumin, curry leaves and bay leaf until they begin to crackle.</p>
+            <p>•	Add the onions and fry them until golden and Saute the ginger paste now just for few seconds.</p>
+            <p>•	Add in the tomatoes, salt and turmeric. Saute for 2 to 3 mins.</p>
+            <p>•	Cook covered until soft and Add red chili powder, pav bhaji masala and garam masala powder.</p>
+            <p>•	Mix and cook until the mixture turns completely soft and mushy and Pour water according to the rice.</p>
+            <p>•	Stir and check salt. If needed add more. Bring the water to a rolling boil, add the drained rice.</p>
+            <p>•	If cooking in a pressure cooker : Stir and cover the cooker with lid. Cook on a mdeium heat. Allow to whistle once. When the pressure goes down, open the lid. Fluff up the rice.</p>
+            <p>•	If making in pot: Cook until the water has almost been absorbed. When the rice is till soggy, lower the flame completely and cover with a lid. Allow to cook completely. If needed sprinkle some warm water and stir. Cook until the tomato rice is completely cooked.</p>
+            <p>•	Add chopped coriander leaves and Tomato rice is ready to serve hot or warm. Serve tomato rice with appalams or chips or with a side raita.</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

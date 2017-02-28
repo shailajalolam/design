@@ -1,0 +1,1253 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.0/jquery.mobile-1.4.0.min.css" />
+    <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.0/theme-classic/theme-classic.css" />
+    <link rel="stylesheet" type="text/css" href="/css/mycss.css" />
+    <style type="text/css">
+        .ui-page {
+            height: 100px;
+            width: 500px;
+            background-color: #333333;
+        }
+
+        .ui-header {
+            background: #1ABC9C !important;
+        }
+
+        .ui-footer {
+            background: #1ABC9C !important;
+        }
+
+
+        hr.style13 {
+            height: 10px;
+            border: 0;
+            box-shadow: 0 10px 10px -10px #1ABC9C inset;
+        }
+
+hr {
+  padding: 0;
+  margin: 0 0 -1.5em 0;
+  border: none;
+  border-top: 1px solid #999;
+  color: #1ABC9C;
+  text-align: center;
+}
+hr:after {
+  display: inline-block;
+  position: relative;
+  top: -0.58em;
+  font-size: 1.5em;
+  padding: 0 0.25em;
+  background:#3d3d3d;
+}
+
+hr:nth-of-type(1):after { content: "\263c"; }
+    </style>
+
+</head>
+<body>
+    <div data-role="page" id="pageone">
+        <div data-role="header">
+            <!--<h1>Welcome To My Homepage</h1>-->
+            <div data-role="header">
+                <h1>MyKitchen</h1>
+            </div>
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#pagetwo">Page Two</a></li>
+
+                </ul></div>
+<!-- Front page one -->
+            <div data-role="main" class="ui-content ui-body-a">
+                <p style="text-align: justify; font-weight: normal" ;>
+                    Telugu Cuisine is a cuisine of South India native to the Telugu people from the states of Andhra Pradesh and Telangana.
+                    Generally known for its tangy, hot and spicy taste, the cooking is very diverse due to the vast spread of the people
+                    and varied topological regions. We learned to cook with just a few spices and herbs in order not to compromise the taste of the
+                    vegetables, grains, and lentils. The combination of all recipes will make it easier for you to understand the fundamentals in cooking
+                    Indian dishes. Indian cooking is not complicated and will show you creative variations that you can experiment with.
+                    Every Indian states has unique vegetarian and non-vergetairan dishes to offer.
+                </p>
+               
+                <img src="food-banner.jpg" alt="Fjords" width="380" height="150" align="middle">
+                <br />
+                
+                <ul data-role="listview" data-inset="true">
+                    <li>
+                        <a href="#pagetwo" class="ui-btn" style="color:white; background-color:lightseagreen;" data-transition="slide">
+                            <img src="front-cover.jpg">
+                            <h2> Welcome MyKitchen</h2>
+                            <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                        </a>
+                    </li></ul></div>
+        </div>
+
+<!-- Footer side -->
+        <div data-role="footer">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+<!-- sescond page -->
+    <div data-role="page" id="pagetwo">
+        <div data-role="header">
+            <h1>Popular Andhra Recipes</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#pageone">Home</a></li>
+                <li><a href="#pagetwo">Page Two</a></li>
+                <!--<li><a href="#">Search</a></li>-->
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p style="text-align: justify; font-weight: normal" ;>
+                Andhra Pradesh state is the leading producer of red chili, rice and Telangana state is millets in India influences the liberal use of spices —
+                making the food one of the richest and spiciest in the world. Vegetarian as well as meat and seafood (coastal areas) feature prominently on the menus.
+            </p>
+
+            <hr>
+         
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="slide">
+                        <img src="rice-front.jpg">
+                        <h2> Delicious Rice</h2>
+                        <p>The Indian vegetarian cuisine is very diverse and elaborated.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#pageeight" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="slide">
+                        <img src="chicken-biryani.jpg">
+                        <h2>Hyderabadi Biryani Recipes</h2>
+                        <p>Hyderabadi Biryani is one of India's most famous Biryanis; some say Biryani is synonymous with Hyderabad.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#pagetwelve" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="slide">
+                        <img src="Curry-front.jpg">
+                        <h2>Andhra Curry Recipes</h2>
+                        <p>The common feature is the use of complex combinations of spices or herbs, usually including fresh or dried hot chillies. </p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#pagesixteen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="slide">
+                        <img src="Tomato-Chutney.jpg">
+                        <h2>Chuntney Recipes</h2>
+                        <p> Chutney is a type of sweet and spicy chutney popular in the world. </p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#pagetwenty" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="slide">
+                        <img src="dessert-front.jpg">
+                        <h2> Sweet Recipes</h2>
+                        <p>Dessert is a course that concludes a main meal and most are based on milk products. </p>
+                    </a>
+                </li>
+            </ul>
+            
+
+            <div data-role="footer">
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+<!--third page-->
+
+    <div data-role="page" id="pagethree">
+        <div data-role="header" data-theme="b">
+            <h1>Welcome To Main Course</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#pageone">Home</a></li>
+                <li><a href="#pagetwo">Page Two</a></li>
+                <!--<li><a href="#">Search</a></li>-->
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>Rice is the staple food in the whole of South Inida. Its spicy and aromatic flavors will boost your metabolism in the most delicious way. </p>
+            <hr>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagefour" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="lemon-rice.jpg" alt="lemon-rice" width="190" height="180" align=""><h2> Lemon Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="coriander-rice.jpg" alt="coriander-rice" width="190" height="180" align=""><h2>Coriander Rice </h2>
+                        <p>Coriander rice is a delicious and easy south Indian dish.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagesix" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="pulihora-rice.jpg" alt="pulihora-rice" width="190" height="180" align=""><h2> Pulihora Rice</h2>
+                        <p>Pulihora is usually cooked on special occasions and festive days.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageseven" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="tomatoe-rice.jpg" alt="tomato-rice" width="190" height="180" align=""><h2> Tomato Rice</h2>
+                        <p>Tomato rice is a vey delicious and simple recipe of south Indian dish.</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+        <!-- class="style13">-->
+
+        <!--<div class="ui-grid-a">
+            <div class="ui-block-a">
+                <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+            </div>
+        </div></div>-->
+
+<!--Foorter side-->
+            <div data-role="footer" data-theme="b">
+                <h1>Thankyou</h1>
+            </div>
+        </div> 
+
+<!-- Fourth Page -->
+
+        <div data-role="page" data-dialog="true" id="pagefour">
+            <!---->
+            <div data-role="header" data-theme="b">
+                <h1>I'm A Lemon Rice!</h1>
+            </div>
+            <div data-role="main" class="ui-content">
+                <img src="lemon-rice.jpg" alt="Fjords" width="120" height="100" align="">
+
+                <p>Lemon rice is a delicious south Indian dish. Lemon juice gives a very refreshing and tangy flavor to the rice.</p>
+                <p><b>Ingredients used in Lemon Rice:</b></p>
+                <p>• 1.5 cups rice or left over rice</p>
+                <p>• salt as needed, 1 large sprig of curry leaves </p>
+                <p>• 1 or 2 tbsp. cooking oil, 1 tbsp mustard and urad dal</p>
+                <p>• 1 half tsp chana dal and 2 to 4 tbsp. peanuts or cashews</p>
+                <p>• Half tbsp turmeric powder and 1 to 2 dried red chilies broken</p>
+                <p>1 to 2 green chili slit and pinch of hing</p>
+                <p><b>Preparation Method:</b>
+                <p>	Lemon rice can be done with fresh cooked rice or with left over rice.</p>
+                <p>	If you are using uncooked rice then start by washing and soaking rice and dal, separately for 15 minutes. Once soaked, wash, drain the water and keep aside. Drain the rice and put it into the deep pan. Add water, oil, and salt, and bring to a boil. Once the water is boiling reduce the heat to low and cover the pan.</p>
+                <p>	Cook about 15 minutes, or until the rice is tender and the water has evaporated. Turn off the heat and fluff the rice with a fork. Keep the cooked rice aside.</p>
+                <p>	In a small bowl, mix lemon juice with turmeric powder and salt and keep aside.</p>
+                <p>	Add cumin seeds and mustard seeds after seeds crack add red chili, curry leaves, and green chilies, and stir for a few seconds, and Add the chana dal, Peanuts or Cashews.
+                    and lemon juice mixture. Simmer for 2/3 mints. Stirring occasionally. Mix it well.
+                </p>
+                <p>	Now, It’s time to add the cooked rice and sprinkle salt.</p>
+                <p>	Mix gently for about 1 minute and your lemon rice is ready to serve!!</p>
+                <p>	Garnish with fresh coriander leaves and Serve with a Raita/Pickle and Poppadums.</p>
+                <div class="ui-grid-a">
+                    <div class="ui-block-a">
+                        <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                    </div>
+                    <div class="ui-block-b">
+                        <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                    </div>
+                </div>
+            </div>
+
+            <div data-role="footer" data-theme="b">
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+
+
+<!-- Five Page -->
+
+    <div data-role="page" data-dialog="true" id="pagefive">
+        <!---->
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Coriander Rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="coriander-rice.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Coriander rice is simple and quick rice recipe with fresh coriander leaves.</p>
+            <p><b>Ingredients used in Coriander Rice:</b></p>
+            <p>• Salt - to taste.</p>
+            <p>• Potato cubed, Carrot cubed Green Peas - 1 cup </p>
+            <p>• Ginger garlic paste - 1 tea spoon.</p>
+            <p>• Cardamom - 1 no.</p>
+            <p>• Cinnamon - 1 small.</p>
+            <p>• Cloves - 1 no.</p>
+            <p>• Rice - 250 grams.</p>
+            <p>• Green coriander - 1 bunch.</p>
+            <p>• Green chilies - 4(as required)</p>
+            <p>• Ghee and oil - as required.</p>
+            <p>• Onions - 1 no</p>
+            <p><b>Preparation Method:</b>
+           <p> Soak the basmati or sona masoori rice for an hour.</p><p>Meanwhile chop all veggies and make coraner paste.</p>
+            <p> First put a pan on stove and add some ghee and some oil and add cloves,cinnamon and cardamom then fry for a while.</p>
+            <p> Add chopped onions and slit green chilies and fry them for 3 minutes then add gingergarlic paste and saute for 1 minute.</p>
+            <p> Then add the coriander leaves to it and fry again for 2 minutes.</p>
+            <p> Remove from fire and let it be cool for 5 minutes and grind all the ingredients, Make smooth paste out of and keep it aside. Add some oil in the same pan and add green peas,
+                fry for 2 minutes and add cashewnuts. After frying them add the gound paste, stir them well and fry for 1 minute.
+            </p>
+            <p> Then add the soaked rice then fry for 2 minutes and then put them in to the rice cooker and pour water for rice to cook.</p><p>•	Serve with a  Poppadums.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+<!-- Sixth Page -->
+
+    <div data-role="page" data-dialog="true" id="pagesix">
+        <!--data-dialog="true"-->
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Pulihora Rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="pulihora-rice.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Pulihora is usually cooked on special occasions and festive days. It is also given as prasadam in some temples; devotees queue to get Pulihora after darshana.</p>
+            <p><b>Ingredients used in Pulihora Rice:</b>
+            <p>• Raw Rice - 1 cup</p>
+            <p>• Tamarind - lemon sized ball </p>
+            <p>• Mustard seeds - 1 tsp</p>
+            <p>• Turmeric powder - 1/4 tsp</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Sesame seed Oil for mixing with cooked rice - 1 tbsp(optional)</p>
+            <p>• Peanuts - 2 tbsp, Generous pinch of Hing(optional)</p>
+            <p>• Green chillies - 2/3 (break it into 2 pieces)</p>
+            <p>• Red chillies - 6 (break it into 2 pieces)</p>
+            <p>• Ginger (finely chopped) - 2 tsp</p>
+            <p>• 2 sprig of Curry leaves, Roasted sesame seeds powder(optional)</p>
+            <p><b>Preparation Method:</b>
+            <p>	Cook rice in such a way that the grains are separate. Spread cooked rice on a plate, add crushed curry leaves to it when it is hot for flavor. Leave it to cool.(Do not make the rice mushy)!</p>
+            <p>	Soak tamarind in hot water for 20-30 minutes and extract 1 cup of thick tamarind juice. Discard the pulp.</p>
+            <p>	Heat the pan with oil, add mustard seeds, when it splutters, add urad dal, bengal gram and peanuts. Saute till dal changes to light golden brown. Then add green chillies, finely chopped ginger and saute for a few seconds.</p>
+            <p>	Then add red chillies, curry leaves and fry for a few seconds. Now add tamarind extract, needed salt, hing and keep it on medium flame. Cook till the mixture thickens otherwise pulihora will be very moist.</p>
+            <p>	Off the heat, add sesame seeds owder to the rice, give a quick stir do not let the mixture fry in the pan. Ass the seasoning to the rice. Mix well, Do not mix while the rice is hot.</p>
+            <p>	Andhra pulihora is ready to be served with papads/appalam or fresh homemade curd.</p>
+            <p>	<b>Note:</b>The tamarind paste or pulikachal can be stored in a bottle and refrigerated for a week. Mix it with rice when needed.</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+
+
+    <!-- Seven Page -->
+    <div data-role="page" data-dialog="true" id="pageseven">
+         <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato Rice!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="tomatoe-rice.jpg" alt="Fjords" width="85" height="80" align="middle">
+            <p>Tomato rice is a very delicious, simple, easy and flavourful south indian recipe. This can be maded in a pressure cooker or a pot. </p>
+            <p><b>Ingredients used in Tomato Rice:</b></p>
+            <p>• 1 cup regular or basmati rice(water as required)</p>
+            <p>• 3 medium to large tomatoes, 1 medium onion</p>
+            <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+            <p>• Half teaspoon mustard seeds, 4 to 5 methi seeds</p>
+            <p>• Urad dal - 1 tbsp, Bengal gram/channa dal - 1 tbsp</p>
+            <p>• Half inch cinnamon, 2 green cardamoms</p>
+            <p>• 2 to 3 cloves, 6 to 7 curry leaves</p>
+            <p>• Half teaspoon turmeric powder and red chili powder</p>
+            <p>• Half teaspoon pav bahji masala and black pepper powder</p>
+            <p>• Half teaspoon coriander powder and cumin powder</p>
+            <p>• 2 sprig of Curry leaves, One cup chopped coriander leaves</p>
+            <p>• 1.75 cups water, 2 tablespoon oil/ghee and salt as required</p>
+            <p><b>Preparation Method:</b>
+            <p>Heat a pressure cooker or a pot with ghee or oil.</p>
+            <p>Saute cloves, cinnamon, cumin, curry leaves and bay leaf until they begin to crackle.</p>
+            <p>	Add the onions and fry them until golden and Saute the ginger paste now just for few seconds.</p>
+            <p>	Add in the tomatoes, salt and turmeric. Saute for 2 to 3 mins.</p>
+            <p>	Cook covered until soft and Add red chili powder, pav bhaji masala and garam masala powder.</p>
+            <p>	Mix and cook until the mixture turns completely soft and mushy and Pour water according to the rice.</p>
+            <p>	Stir and check salt. If needed add more. Bring the water to a rolling boil, add the drained rice.</p>
+            <p>	If cooking in a pressure cooker : Stir and cover the cooker with lid. Cook on a mdeium heat. Allow to whistle once. When the pressure goes down, open the lid. Fluff up the rice.</p>
+            <p>	If making in pot: Cook until the water has almost been absorbed. When the rice is till soggy, lower the flame completely and cover with a lid. Allow to cook completely. If needed sprinkle some warm water and stir. Cook until the tomato rice is completely cooked.</p>
+            <p>	Add chopped coriander leaves and Tomato rice is ready to serve hot or warm. Serve tomato rice with appalams or chips or with a side raita.</p>
+
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div> 
+
+
+<!--eight page-->
+
+    <div data-role="page" id="pageeight">
+        <div data-role="header" data-theme="b">
+            <h1>Famous Briyani</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#pageone">Home</a></li>
+                <li><a href="#pagetwo">Page Two</a></li>
+                <!--<li><a href="#">Search</a></li>-->
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>
+                Biryani is considered to be a dish of Indian origin, South India has more varieties of biryani than any other part of the subcontinent.
+                Also, rice is more a staple food in South India than in the rest of India.  It is generally made with spices, rice, and meat.
+            </p>
+            <hr>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagenine" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="chicken-dum-biryani.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Chicken Dum Biryani</h2>
+                        <p>Chicken Biryani is the most ordered and liked rice preparation in India.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageten" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="mutton-dum-biryani.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Hyderabadi Mutton Biryani</h2>
+                        <p>
+                            Hyderabadi Mutton Biryani or mutton biryani recipe is a spicy, fragrant and colourful variant of biryani in India.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+           <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageeleven" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="veg-dum-biryani.jpg" alt="Fjords" width="85" height="80" align="middle"><h2>  Vegetarian Dum Biryani</h2>
+                        <p>Vegetable Biryani prepared in a traditional Hyderabadi Dum Biryani style is a Vegetarian's dream come true for enjoying the flavorful slow cooked dum biryani.</p>
+                    </a></li></ul>
+             <!--<ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwleve" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Fish Biryani </h2>
+                        <p>This dum fish biryani is an easy, simple and delicious in hyderbadi style</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+
+    <!-- Nine Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagenine">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Chicken Dum Biryani!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="chicken-dum-biryani.jpg" alt="" width="85" height="80" align="middle">
+            <p>Hyderabadi Chicken Dum Biryani is an authentic Hyderabadi special rice dish which is a popular Dum Biryani recipe of Chicken from Hyderabad served with Raita.
+Hyderabad is famous for Biryani all across India. </p>
+            <p><b>Ingredients used in Chicken Dum Biryani:</b></p>
+            <p>• Chicken - 500 grams and Curd - 250 grams.</p>
+            <p>• Rice - 500 grams and  ginger garlic paste - 1 tbsp.</p>
+            <p>• Cumin powder anf Coriander powder - 1 tbsp.</p>
+            <p>• Turmeric - 1 tsp, Cinnamon - 2 big, Green cardamom - 10nos.</p>
+            <p>• Cloves - 10 nos, Black Cardamom and Javitri - 2 nos.</p>
+            <p>• Star anise - 3 nos, 1/2 Bay leaf, 6/7 Pepper corn</p>
+            <p>• Red chilli powder - 2 tbsp, Green chillies - 3 big.</p>
+            <p>• Onions - 2 big, Lemon - 2 tbsp.</p>
+            <p>• Shahijeera - 2 tsp and Coriander leaves - 1 bunch.</p>
+            <p>• Mint leaves - 1 bunch and Oil or Ghee - 2/3 tbsp</p>
+            <p>• Safforn 1tbsp(with hot milk), food color(optional)</p>
+            <p><b>Preparation Method:</b></p>
+            <p><b>Biryani masala preparation:</b> Take a blender jar grind: Cloves,Green cardamoms, Cinnamon and Shahijeera and grind it like powder.
+                 Deep fries: Cut the onions into slices and deep fry till golden color. Chopping: Chop coriander leaves , mint leaves, green chillies.</p>
+            <p><b>Marination:</b> Take curd into pressure cooker, chicken, chooped mint, coriander, green chillies, red chili powder, turmeric, salt, butter,cloves,  Green cardamom,
+               Big cinnamon, Black Cardamom, Shahijeera, ginger garlic paste, cumin powder, fried onions, coriander powder,lemon juice and star anise mix them all and cover that with the cap.
+             Marinate it for 2 hrs and overnight is best. </p>
+            <p>This step is optional. Tie up all the dry spices for rice in a muslin cloth.</p>
+            <p><b>Biryani Preparation:</b> Wash rice till the water runs clear. Soak the rice for 20 to 30 mints. Heat the water in a utensil to cook riceand  add salt, ghee and dry spices let the boil water
+             rapidly for 5 mins, this way the aroma released is best. Add the soaked rice and cook till it is 60% done. Remember this is very important. Do not make the rice mushy. Drain off if any excess water is left.
+            While the rice cooks, transfer the marinated chicken to a heavy bottom casserole, handi or non-stick pot. Mix well and level the surface. Pour the saffron milk all over. (optional: if u want to add color? You can).
+            Close the cap and put the weighter(whistle) and put it on the stove and 15/20 mints on medium high such that the flame reaches all over the diameter of the casserole and 10/15 mints on low flame. 
+            Off the flame and leave it as it is for at least 20 to 30 mins. The stove and wait till the pressure come down in cooker. Open the cap and mix that from down and Garnish chicken biryani 
+            with fresh chopped coriander leaves and Serve with raita. Enjoy the Chiken Dum Biryan!</p>
+            
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Ten Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pageten">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Mutton Dum Biryani!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="mutton-dum-biryani.jpg" alt="" width="85" height="80" align="middle">
+            <p>Hyderabadi mutton biryani is a traditional style of making the biryani by cooking the raw meat with spices
+             for couple of minutes and then covered with rice and kept on dum until done. </p>
+            <p><b>Ingredients used in Mutton Dum Biryani:</b></p>
+            <p>• 1 kg mutton cleaned and washed well and Basmati rice - 5cups fo rice(600gms)</p>
+                        <p>• Turmeric powder - 1tsp, Saffron - 1tsp.</p>
+                        <p>• Coriander leaves and Mint  - 1bunch.</p>
+                        <p>• Salt - 1 to taste, Oil/ghee - 5tbsp</p>
+                        <p>• Red chilli powder - 1tbsp and Food colors(optional)</p>
+                        <p>• Boiled egg for decoration (optional) - 2 </p>
+                        <p>• Rose water (optional) - 1tbsp.</p>
+                        <p>• Garlic and ginger paste - 2tbsp.</p>
+                        <p>• Golden fried sliced onions - 2cup.</p>
+                        <p>• 1 cinnamon stick, 3-4 green cardamoms</p>
+                        <p>• 4-5 black pepper corns, 2-3 cloves</p>
+                        <p>• Green chilli - 3(paste) and Curd - 2 cup.</p>
+            <p>• Cashew nuts (optional) - 50 grams.</p>
+            <p>• Black cumin - 1 tsp,1 tsp raw papaya paste</p>
+            <p>• Garam masala powder - 2tbsp and • Lime juice - 2tbsp.</p>
+            <p>• 1 tbsp chopped coriander leaves for garnishing </p>
+            <p>• 1 tbsp chopped mint leaves for garnishing</p>
+            <p><b>Preparation Method:</b></p>
+            <p>Firstly, in a large vessel, add washed mutton pieces, salt, red chilli powder, turmeric powder, ginger garlic paste.</p>
+            <p>Into the marinade add cinnamon stick, cardamoms, cloves, black pepper corns, and mix well. Add green chilli paste, mint leaves, coriander leaves, crush the deep fried onions and add into it.
+Mix the whole mixture well. Add raw papaya paste, add oil, add beaten yogurt into the marinade, add garam masala powder, add lemon juice and mix it well. Rest this marinade aside for about 1 hour.</p>
+            <p>Wash basmati rice and soak the rice in water for about 30/40 minutes. In a cooking pot, add water and salt generously for about 10-12 cups or more than that.</p>
+            <p>Add whole spices that are cinnamon, cardamoms, caraway seeds, cloves and black pepper corns and ghee into it and mix it well. Bring the water a boil.
+Add the soaked rice into the boiling water. Cook the rice until it is 60-70% done. Strain the rice completely and put it aside.</p>
+            <p>Take a cooking pot in which Biryani is cooked. Add the mutton marinade into it and spread it evenly. Add the rice over the marinade and spread it evenly.</p>
+            <p>Over the rice season it with saffron flavored milk, Rose water, mint leaves, corinader leaves. Add lemon juice all over and add crushed onions all over the rice. Top it with some desi ghee.</p>
+            <p>Cover the lid and seal it tightly with a dough or put heavy weight on the lid. Switch on the flame. Place a skillet/tawa on the flame. Place the cooking pot on the tawa.
+Dum the biryani for about 15 minutes on high flame. Reduce the flame to sim and dum the biryani for about 35/40 mints on sim flame. Switch off the flame. Dig the biryani from one side of the corner. 
+            The biryani should be taken out with a spatula from the bottom to the top. Serve the mutton dum biryani with raita and mirchi ka salan.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eleven Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pageeleven">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Vegetable Dum Biryani!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="veg-dum-biryani.jpg" alt="" width="85" height="80" align="middle">
+            <p>Vegetable Dum Biryani is a Mughlai dish which is made by cooking the rice and vegetables using the process of Dum, which means cooking in a sealed container over very low heat. </p>
+            <p><b>Ingredients used in Vegetable Dum Biryani:</b></p>
+                        <p>• 1 cup basmati rice, soaked for 30 minutes</p>
+                        <p>• Half cup ghee and 1 cup sliced onions</p>
+                        <p>• 1.5 teaspoon ginger garlic paste and 1 green chili</p>
+                        <p>• 2 cups cauliflower,2 cups beans(chopped), 2 cups carrot(chopped), Half cup green capsicum(chopped)</p>
+                        <p>• 2 cups Potatoes(chopped) and Salt - 1 to taste.</p>
+                        <p>• ¼ cup cashew nuts and Almonds</p>
+                        <p>• 3 tbsp raisins, Half cup plain curd </p>
+                        <p>• Half tsp coriander powder, ¼ tsp cumin powder</p>
+                        <p>• 1 tsp Kashmiri chilli powder, ¼ tsp turmeric powder</p>
+                        <p>• Half cup chopped mint leaves and chopped coriander leaves </p>
+                        <p>• 3 tbsp warm milk and A pinch saffron and Powder Together for Biryani Masala</p>
+                        <p>• 4 cardamom pods, 1 bay leaf, 1 piece of cinnamon and javithri</p>
+                        <p>• Half tsp fennel seeds and ¼ tsp shahjeera, 5 cloves and 1 star anise</p>
+                        <p>• 2 green chillies and 1tbsp garlic, ginger(paste)</p>
+            <p><b>Preparation Method:</b>
+            <p>Take a pan add oil,garam masala,saute it add zeera,gingergarlic paste,vegetables cut lettle bit long size mix well and add salt,need to cook till they are half cooked. now add mint,coriander,green chillies,biryani masala mix half cup of curd.</p>
+            <p>Soak rice for 1 hr in abowl. Now boil water add rice to it, ,the rice to be cooked half (70%) and strain the rice. Take a biryani bowl add half of the cooked vegetables spread all over the pan add some
+             curd,nuts if required,salt,fry onions,add half rice, repeat the same process again. Lastly add fried onions,Corinder leaves,close it with a lid,and cook it for 5min in avery slow flame.</p>
+            <p> Layer the rice over the vegetable mix. Then layer the ⅓ cooked vegetable mix or 2 pinches of masala powder. Sprinkle some fried onions, mint and coriander. Layer rice over it again, 
+            then the fried onions, mint and coriander leaves and pour off the saffron milk. Fry nuts in a ghee, saute raisins and then pour this over the rice. Place a moist clean cloth to seal the rim.
+             You can even use a foil or atta to seal the utensil.</p>
+            <p>Place the dum utensil on a hot tawa and cook for 5 minutes on a medium flame and then on low for 5 to 7 mints based on the thickness of your utensil. Serve hyderabadi veg biryani 
+            hot or warm in layers of rice and gravy.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagethree" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+ <!--Twelve page-->
+
+    <div data-role="page" id="pagetwelve">
+        <div data-role="header" data-theme="b">
+            <h1>Famous Andhra Curries</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#pageone">Home</a></li>
+                <li><a href="#pagetwo">Page Two</a></li>
+                <!--<li><a href="#">Search</a></li>-->
+            </ul>
+        </div>
+
+        <div data-role="main" class="ui-content">
+            <p>An aromatic flavor because of all the spicy garam masala that goes into this Andhra style chicken curry. The dishes consist of koora, which include cooking 
+                different vegetables in a variety of styles - with gravy, frying, with lentils, etc.</p>
+            <hr>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagethirteen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="shrimp-curry.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Shrimp Curry</h2>
+                        <p>Andhra Style Spicy Prawn Curry is a spicy and tasty prawn curry. </p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagefourteen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="chapala-pulusu.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Chapala Pulusu</h2>
+                        <p>
+                            "Chepala" means River fish or Fresh water fish. An awesome (pulusu) dish made with fish and tangy tamarind sauce is the traditional delicacy of Andhra Pradesh.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagefifteen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="kodi-kura.jpg" alt="Fjords" width="85" height="80" align="middle"><h2>  Kodi Pulusu</h2>
+                        <p>Kodi Pulusu: Telangana's special flavorful country chicken curry.</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwleve" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Fish Biryani </h2>
+                        <p>This dum fish biryani is an easy, simple and delicious in hyderbadi style</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+<!-- Thirteen Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagethirteen">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Shrimp Curry!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="shrimp-curry.jpg" alt="" width="85" height="80" align="middle">
+            <p>Andhra Style Spicy Prawn Curry is a spicy and tasty prawn curry. This curry as side dish for chappathi or roti.  </p>
+            <p><b>Ingredients used in Shrimp Curry:</b></p>
+            <p>• 400 grams of Shrimp/Royyalu</p>
+            <p>• Onion - 2 (medium sized - chopped finely)</p>
+            <p>• Tomato - 2 (chop finely and make into puree)</p>
+            <p>• Half tsp Coriander powder and Cumin powder</p>
+            <p>• 1 green chili slit and 1 tsp. ginger garlic paste</p>
+             <p>• 1 sprig curry leaves, 1tsp jeera</p>
+             <p>• Salt to taste and 2tbsp. oil(adjust to suit your taste)</p>
+             <p>• 1 tsp. garam masala powder, 1tsp Kashmiri chilli powder(optional)</p>
+             <p>• 1tsp turmeric and 1tbsp Red chilli powder</p>
+            <p>• 1 tbsp. Lemon juice (adjust to suit your taste)</p>
+            <p>• Fennel seeds - 1/2 tsp, Cardamom - 1, Cloves - 6 to 7</p>
+            <p>• Bay leaf - 1 crushed, Cinnamon stick - 2 inch (Crushed)</p>
+            <p>• Coriander leaves few for garnishing</p>
+            <p><b>Preparation Method:</b>
+            <p>Clean and devein the prawns. Wash with salt. Drain water thoroughly, Marinate the prawns with salt, chilli powder, coriander powder, turmeric and lemon juice. Let it sit for 30 - 40 mints atleast.</p>
+            <p>Heat a pan with add oil, and when hot add the spices one by one and Add the chopped onions, curry leaves, green chillies. Sauté till they become soft. Add the Ginger garlic paste. Fry till they raw smell goes off.</p>
+            <p>Now add the tomato purée, remaining chilli powder, kashmiri chilli, coriander powder, salt, little turmeric. add the cumin powder.</p>
+            <p>Saute them nicely. Take care not to burn them. Add the marinated prawns and cook for while. Sprinkle some water just enough to bring in some moisture for the prawns to get cooked. 
+            Cover and cook on a medium flame till they are completely cooked. Cook till all water goes off. Switch off the stove and served hot. </p>
+            <p>Spicy and yummy, Andhra style prawn curry is ready, Garnish with coriander leaves.</p>
+            <p>Notes: Taste before adding garam masala and pepper powder, since it becomes more spicy and kids cannot eat it.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Fourteen Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagefourteen">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Chapala Pulusu!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="chapala-pulusu.jpg" alt="" width="85" height="80" align="middle">
+            <p>"Chepala" means River fish or Fresh water fish. An awesome (pulusu) dish made with fish and tangy tamarind sauce is the traditional delicacy of Andhra Pradesh.
+             Chepala Pulusu means fish curry in tamarind sauce.</p>
+            <p><b>Ingredients used in Chapala Pulusu:</b></p>
+            <p>• 1 kg fish - cut into medium size pieces</p>
+            <p>• 1 Onion(chopped) and 1 Tomato(chopped)</p>
+            <p>• Green chilli slit – 3, Ginger garlic paste – 2 tbsp + 1 tbsp for marination</p>
+            <p>• 1 tbsp Mustard seeds and Cumin </p>
+            <p>• Curry Leaves - 1spring, Fenugreek seeds – 1/4 tbsp</p>
+            <p>• 2 tbsp of Red Chili Powder (I used Kashmiri Chili Powder)</p>
+            <p>• Cumin and Coriander powder – 2 tbsp</p>
+            <p>• Turmeric and Pepper powder – 1 tbsp</p>
+            <p>• Salt to taste and Oil – 6-7 tbsp</p>
+            <p>• Tamarind soaked in hot water – 1 lemon size</p>
+            <p>• 1 bunch of coriander chopped finely</p>
+            <p><b>Preparation Method:</b>
+            <p>Soak tamarind in hot water for atleast 20 min and extract juice out of it. Discard the pulp.Now start marinating the fish pieces with spice powders. 
+            Make the spice powders into 2 halves and sprinkle one half on the fish pieces along with 1/2 tbsp of ginger garlic paste.Let them marinate for at-least 30 - 40 mints.</p>
+            <p>Take oil into a heavy bottomed pan/pot and add oil, crackle cumin seeds,mustard seeds and curry leaves. Then add onions,green chilli and saute for a min. 
+            Add in ginger garlic paste and saute till the onions are soft.</p>
+            <p>Add in tomatoes and cook till they turn mushy.Adjust some salt and sprinkle the remaining spice powders.</p>
+            <p>Add in the extracted tamarind juice and adjust some water(use less) and boil them on high flame for 5/7mints.</p>
+            <p>Add in the marinated fish pieces and boil them on high flame for another 5/7mints. Reduce the flame and cook it covered for atleast 20 min or until the fish is cooked inside.Adjust salt if required</p>
+            <p>Sprinkle lots of coriander and serve hot!!Tangy fish pulusu is ready to enjoy:)</p>
+            <p>Note: Usage of grated fresh coconut gives it a total different taste so feel free to use.</p>
+            <p>Allow the fish curry to sleep for a night..it gives a better taste.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Fifteen Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagefifteen">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Kodi Pulusu!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="kodi-kura.jpg" alt="" width="85" height="80" align="middle">
+            <p>Andhra cuisine is popular for hot and spicy foods and especially the foods made in vijaywada and Guntur region. </p>
+            <p><b>Ingredients used in Kodi Pulusu:</b></p>
+            <p>• Half kg chicken, ¼ tbsp. red chili powder (adjust as needed)</p>
+            <p>•  medium onions finely chopped</p>
+        <p>• 1 tomato chopped finely, 1 green chili slit or chopped</p>
+        <p>• ¾ tsp ginger garlic paste, 3 tbsp. Oil</p>
+        <p> •3 tbsp. Poppy seeds or 10 cashewnuts, 2 tbsp. Coconut (optional)</p>
+        <p>• 1tbsp. ginger garlic paste and Kashmiri chilli powder</p>
+        <p>• ⅛ tsp turmeric, Salt as needed</p>
+        <p>• 1 to 3 tbsp. lemon juice (adjust as needed) or curd</p>
+        <p>• 2 tbsp. red chili powder  (adjust as needed)</p>
+        <p>• 1 bay leaf or 1 sprig curry leaves</p>
+        <p>• 2 to 3 cloves, 2 cardamom, 1 inch cinnamon stick</p>
+        <p>• ¼ shahi jeera or cumin, 1 Garam masala powder</p>
+        <p>• 1 bunch coriander leaves chopped</p>
+        <p><b>Preparation Method:</b></p>
+           <p>Sun dry or dry roast poppy seeds. First powder them thoroughly to a fine powder and then add water to make a smooth paste.Use very little water. 
+            If you cannot make a smooth paste, do not attempt to use the poppy paste, instead replace with 10 cashew nuts paste.If using coconut add it along with
+             water to make a fine paste or thick milk like consistency.</p>
+        <p>Marinate chicken with marination ingredients and set aside till we use it. Add oil in a pan and heat till hot, sauté the whole spices in the oil for a min.
+Add green chili, salt and onions. Fry till onions become fragrant and golden evenly. Add ginger garlic paste and saute again till it becomes fragrant. </p>
+        <p>Please do not burn. If using tomato, you can add now and fry till the mixture is roasted well and oil begins to separate.</p>
+        <p>Add chicken and fry on a high flame for 2 to 3 mints, add Red chili powder,Kashmiri chilli and garam masala, add water just enough to immerse the chicken.Do not add lot of water. Curry becomes runny.</p>
+        <p>Cover and cook on a low flame till the chicken is fully cooked and is tender. Add the poppy seeds/cashew paste. Stir well and cook till you get the required consistency for about 3 to 5 minutes.</p>
+        <p>Serve andhra chicken curry with any jeera rice or phulka/roti and raita.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div></div></div>
+
+
+
+
+<!--Sixteen page-->
+
+    <div data-role="page" id="pagesixteen">
+        <div data-role="header" data-theme="b">
+            <h1>Famous Andhra Chutnies</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#pageone">Home</a></li>
+                <li><a href="#pagetwo">Page Two</a></li>
+                <!--<li><a href="#">Search</a></li>-->
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p>Chutney is a specific type of relish. Chutney is fruit based and has a spicy complexity. Relish is vegetable based and has a pickled profile.</p>
+            <hr>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageseventeen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="Tomato-Chutney.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Tomato Chutney</h2>
+                        <p> Tomato Chutney South Indian Recipe is a tangy & spicy chutney with garlic flavour & pairs best with Indian breakfasts like idli, dosa, pesarattu etc.</p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pageeightteen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="onion-tomato-chutney.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Onion - Tomato Chutney</h2>
+                        <p>
+                            This is not only an easy chutney recipe but also a versatile chutney. It goes well with most breakfast dishes. 
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagenineteen" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="Peanut-Chutney.jpg" alt="Fjords" width="85" height="80" align="middle"><h2>  Peanut Chutney</h2>
+                        <p>Peanut chutney is a mildly spicy chutney side dish that can be used with several snack foods and breakfast foods. </p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwleve" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Fish Biryani </h2>
+                        <p>This dum fish biryani is an easy, simple and delicious in hyderbadi style</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div>
+    </div>
+
+
+    <!-- Seventeen Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pageseventeen">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Tomato Chutney!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="Tomato-Chutney.jpg" alt="" width="85" height="80" align="middle">
+            <p>Tomato chutney is a south indian curry it is easy to make and it is very simple Chutney.
+                Chutneys are freshly made from fresh ingredients that can be kept a couple of days or a week in the refrigerator. Chutneys are commonly made in every indian home.</p>
+            <p><b>Ingredients used in Tomato Chutney:</b></p>
+            <p>• 2 large tomatoes, ½ inch ginger and 1 small garlic pod</p>
+           <p>• 2 to 3 dry red chilies, 1 teaspoon urad dal</p>
+            <p>• 4­5 black pepper, 2­3 cloves, 1 pinch asafoetida</p>
+            <p>• 2 tablespoon water for grinding, ½ tablespoon oil, salt as required</p>
+    <p><b>For Tempering:</b></p>
+            <p>• ½ tablespoon oil, 1 dry red chili</p>
+            <p>• 3 springs curry leaves, ½ teaspoon mustard seeds</p>
+            <p>• 2 to 3 fenugreek seeds, 1 pinch hing</p>
+     <p><b>Preparation Method:</b>
+            <p>Heat oil and add urad dal. on a low flame, saute the urad dal. Dal must turn golden.</p>
+            <p>Once the lentils get a golden brown color, add broken dry red chilies, cloves, black pepper and ginger, garlic stir for till the red chilies change their color. Don not burn.</p>
+            <p>Then add chopped tomatoes and asafoetida. add salt. stir and saute till the tomatoes soften. about 6 to 7 minutes on a low flame. Once the tomato mixture cools,
+             add them to a chutney grinder or small blender.</p>
+            <p>Add 2 tbsp water and grind to a smooth paste. In the same pan or different pan, heat 1 tbsp oil. Add the mustard seeds and crackle them. then add curry leaves, methi seeds, asafoetida,
+and one broken red chili. saute till the curry leaves become crisp.</p>
+            <p>Then add the ground tomato paste. stir well. Saute for 3 to 4 minutes on a low flame. check the taste and add more salt if required.</p>
+            <p>Stir again. the tomato chutney is done and ready to be served.</p>
+            <p>Cool completely and remove to a serving vessel/Glass jar. Serve with any tiffin like idli and pongal OR with rice OR as a dip </p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Eightteen Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pageeightteen">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Onion - Tomato Chutney!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="onion-tomato-chutney.jpg" alt="" width="85" height="80" align="middle">
+            <p> Onion -Tomato chutney recipe to accompany south indian breakfasts like Idli, Dosa, Pesarattu, Pongal.</p>
+            <p><b>Ingredients used in Onion - Tomato Chutney:</b></p>
+            <p>• 2 medium onions, 3 tomatoes(adjust to suit your taste)</p>
+            <p>• 3 to 5 red chilies, 1tbsp chana dal</p>
+            <p>• Half tbsp urad dal, Half inch ginger, 1 garlic clove</p>
+            <p>• Half tsp jeera, Salt as needed, 2 tsp oil </p>
+            <p>• Tamarind paste, Pinch of turmeric </p>
+            <p><b>For Tempering:</b></p>
+            <p>• 1 tsp.oil, ¼ tsp urad dal</p>
+            <p>• pinch of hing, 1 sprig curry leaves</p>
+            <p>• ¼ tsp mustard, ¼ tsp cumin, 1 broken red chili</p>            
+            <p><b>Preparation Method:</b></p>
+            <p>Dry roast dals till golden.Heat the oil. Fry red chilies till crisp. set aside. Add the onions and saute till light brown. add the tomatoes and asafoetida.
+season with salt. </p>
+            <p>Saute till the tomatoes become soft, pulpy and are completely cooked. the rawness of the tomatoes should go
+away, otherwise you will get the raw aroma of the tomatoes in the chutney fry till the tomatoes turn mushy and soft. Cool this as well.</p>
+            <p>Add dal, cumin and red chilies to a blender. Make a fine powder. Add onion tomato mixture, ginger garlic and then grind in a chutney grinder with tamarind. no need to add water while
+grinding. but if you are unable to grind then add little water.</p>
+            <p>Check the taste and add some more salt or tamarind if required and continue to grind to a smooth chutney.</p>
+            <p>Heat oil in the pan, add cumin, mustard, urad dal. When the dal turns golden, add curry leaves and red chilies. Fry till the leaves turn crisp. add hing. Add onion tomato chutney to the pan and mix it well.</p>
+            <p>Pour the chutney in a serving bowl.Serve with Idli, Dosa, Medu Vada and Pesarratu.</p>
+            
+                        <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Nineteen Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagenineteen">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Peanut Chutney!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="Peanut-Chutney.jpg" alt="" width="85" height="80" align="middle">
+            <p>Peanut chutney is a delicious condiment that compliments many South Indian dishes such as dosa, idli, and Medu Vada. </p>
+            <p><b>Ingredients used in Peanut Chutney:</b></p>
+            <p>• 1½ cup peanuts, 1 tsp Oil, ½ teaspoon salt</p>
+        <p>• 3 cloves Garlic, 2 dried Red chillies</p>
+        <p>• 2/3 green chilli(optional), 2 medium sized Onions(chopped)</p>
+        <p>• ½ tablespoon sesame seeds and methi seeds</p>
+        <p>• ½ lime size tamarind, ½ lime size jaggery(optional)</p>
+        <p><b>For the Tempering:</b></p>
+        <p>• 2 teaspoon Oil, 2 dried Red Chilli</p>
+        <p>• 1 sprig Curry leaves, 1 tsp musterd and cumin</p>
+        <p>• Pinch of Turmeric(optional)</p>
+            <p><b>Preparation Method:</b>
+            <p>Heat oil in a pan and fry the peanuts on a low to medium flame for 3­4 minutes.</p>
+        <p>Add the curry leaves and fry for a minute. lastly add the  chana dal, sesame seeds, methii seeds
+& asafoetida and fry for 2­3 minutes more on a low flame. Take care that you don't over brown or burn this mixture, else the chutney might have bitter tones.</p>
+        <p>Let this mixture warm or cool down. Then, addin a chutney grinder or a small blender. Add in the ginger, garlic, green chilies, tamarind and salt.</p>
+        <p>Pour some water and grind the peanut chutney to a smooth consistency. You can make the peanut chutney thick or of medium consistency. Check the salt and add more if required.</p>
+        <p>You can serve as is or do a simple tadka/tempering the following way.</p>
+        <p>Heat oil in a pan and add couple of dried red chillies and curry leaves. When the curry leaves turn crisp (usually 30-40 seconds in medium flame),
+remove off heat and add it to the chutney.</p>
+        <p>Serve peanut chutney with idli, dosa, medu vada, uttapam or pakoras.</p>
+
+            
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div></div></div>
+
+<!--Twenty page-->
+
+    <div data-role="page" id="pagetwenty">
+        <div data-role="header" data-theme="b">
+            <h1>Famous Sweet Dishes</h1>
+        </div>
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#pageone">Home</a></li>
+                <li><a href="#pagetwo">Page Two</a></li>
+                <!--<li><a href="#">Search</a></li>-->
+            </ul>
+        </div>
+        <div data-role="main" class="ui-content">
+            <p> Dessert is a course that concludes a main meal and most are based on milk products. Many are flavoured with almonds 
+                and pistachios, spiced with cardamon, nutmeg, cloves and black pepper, and decorated with nuts, or with gold or silver leaf.</p>
+            <hr>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwentyone" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="double-ka-meeta.png" alt="Fjords" width="85" height="80" align="middle"><h2> Double ka meetha</h2>
+                        <p>Double ka meetha is a dessert of Hyderabad, Telangana. It is popular in Hyderabadi cuisine, served at weddings and parties.
+The dish is similar to Shahi Tukda which has its roots in Mughlai cuisine. </p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwentytwo" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="bread-halwa.jpg" alt="Fjords" width="85" height="80" align="middle"><h2> Bread Halwa</h2>
+                        <p>
+                            Bread halwa is very delicious sweet. Bread halwa is one of the easiest Indian halwa recipes.
+                        </p>
+                    </a>
+                </li>
+            </ul>
+            <ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwentythree" class="ui-btn" style="color:white; background-color:#000000" ; data-transition="pop">
+                        <img src="rice-kheer.jpg" alt="Fjords" width="85" height="80" align="middle"><h2>  Rice Kheer</h2>
+                        <p>Rice kheer recipe or Indian rice pudding recipe - rice is cooked in milk and sugar. It is flavored with cardamom powder and saffron.</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li>
+                    <a href="#pagetwleve" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Fish Biryani </h2>
+                        <p>This dum fish biryani is an easy, simple and delicious in hyderbadi style</p>
+                    </a>
+                </li>
+            </ul>
+            <!--<ul data-role="listview" data-inset="true">
+                <li><a href="#pagefive" class="ui-btn" style="color:white; background-color:#000000" ;>
+                        <img src="lemon-rice.png"><h2> Coriander Rice</h2>
+                        <p>Lemon rice is a delicious south Indian dish.</p>
+                    </a></li></ul>-->
+
+        </div>
+
+        <div data-role="footer" data-theme="b">
+            <h1>Thankyou</h1>
+        </div></div>
+
+
+
+
+    <!-- TwentyOne Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagetwentyone">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Double ka Meetha!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="double-ka-meeta.png" alt="" width="85" height="80" align="middle">
+            <p>Double ka meetha is a dessert of Hyderabad, Telangana. It is popular in Hyderabadi cuisine, served at weddings and parties.</p>
+            <p><b>Ingredients used in Double ka Meetha:</b></p>
+            <p>• 10 slices of fresh bread (brown/white)</p>
+            <p>• 1 cup water, 1 cup sugar, 2 tablespoons rose water</p>
+            <p>• Safron color - 1 pinch, Cardamom powder - 1tsp</p>
+            <p>• 1 litre milk, Khoya - 200g, Ghee - 2cups</p>
+            <p>• 10-12 almonds, 10-12 Cashew nuts, 2 tablespoons Raisins,Pista,Dated</p>
+                       <p><b>Preparation Method:</b></p>
+            <p>Heat ghee in a frying pan. Cut the bread into halves diagonally. Deep fry the slices till golden brown. Drain on a tissue lined plate and Keep aside.</p>
+            <p>Deep fry the almonds and cashew nuts in the same ghee till slightly browned and Drain and keep aside.</p>
+            <p>For the Sugar Syrup: Add sugar and water in a pan and cook on medium heat till the syrup is slightly thickened.Remove from heat and keep aside.</p>
+            <p>For the Milk Mixture: Heat milk in a heavy bottom pan.When the milk comes to a boil, lower the heat and add crumbled khoya in it.
+            Cook on low heat till the milk is reduced to half. Once the milk turns into a thick mixture, add a pinch of saffron and mix well. Remove from heat and keep aside. Add rose water.</p>
+            <p>Dip the toasts in the sugar syrup and place them in a serving plate. Pour the milk mixture over the bread slices and garnish with toasted pistas.</p>
+            <p>Serve Shahi Tukra/Double ka Meetha warm or chilled.</p>
+            
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Twentytwo Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagetwentytwo">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Bread Halwa!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="bread-halwa.jpg" alt="" width="85" height="80" align="middle">
+            <p>Bread halwa is very delicious sweet.  Bread halwa is one of the easiest Indian halwa recipes. Bread halwa can be made during festivals like diwali, pongal as it has very simple and quick process.  </p>
+            <p><b>Ingredients used in Bread Halwa:</b></p>
+            <p>• Bread – 7 slices, Ghee – 1/2 cup)</p>
+            <p>• Milk – 2 cups, Sugar – 1/2 cup + 2 tbsp</p>
+            <p>• Almond – 8, Cashew nuts – 10, Cardamom – 3</p>
+     <p><b>Preparation Method:</b></p>
+            <p>Cut the bread into bit sized pieces. Heat Kadai or a heavy bottomed pan with ghee. </p>
+            <p>And add the bread pieces and fry them till they turn a golden brown. Taking care not to turn the pieces dark in color. It should be golden in colour.</p>
+            <p>Meanwhile, boil milk with sugar. Add it to the roasted bread.</p>
+            <p>Bring to boil and put the flame to low.. Let it simmer till the bread pieces turn soft and cook in the milk mixture. Garnish with the almonds and cashew nuts.</p>
+            <p>Serve warm or refrigerate until chilled and serve. It tastes good both warm and cold.</p>
+            <p>Note: This should keep good  3 days in the fridge.</p>
+            
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!-- Twentythree Page --><!--  -->
+    <div data-role="page" data-dialog="true" id="pagetwentythree">
+        <div data-role="header" data-theme="b">
+            <h1>I'm A Rice Kheer!</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <img src="rice-kheer.jpg" alt="" width="85" height="80" align="middle">
+            <p>Rice kheer can be made for any festival or celebration or also as a sweet dessert wihich you can serve after meals. Making kheer at home is very easy. </p>
+            <p><b>Ingredients used in Rice Kheer:</b></p>
+            <p>• 1 litre Whole milk, 5 to 6 tbsp sugar</p>
+            <p>• ¼ cup Long grain rice or Basmati rice</p>
+            <p>• Rose water- 1tsp(optional), 6 green Cardamoms, 1 pinch Saffron, 1 tbsp Raisins</p>
+            <p>• 15 to 20 Almonds and 15 to 20 Cashews(chopped)</p>
+      <p><b>Preparation Method:</b></p>
+            <p>Wash the rice under running cold water till water runs clear. Soak the rice in enough water for 30 minutes.</p>
+            <p>While rice is soaking, chop the nuts and keep it aside.  After soaking time, discard the water.</p>
+            <p>Take milk in a heavy bottom pan/pot. Turn the heat on medium.</p>
+            <p>Let the milk come to a boil. Once it starts boiling, add rice.</p>
+            <p>Stir and simmer the milk and let the rice grains cook.</p>
+            <p>The whole process of cooking the rice in the milk takes about approx 35­40mints on a low flame.</p>
+            <p>Now add sugar and cardamom powder. Stir it well. Stir and continue to stir often so that lumps are not formed and
+                scrape the sides of the pan and add this dried milk into the pan.</p>
+            <p>Also add saffron strands and chopped cashews, almonds and raisins.</p>
+            <p>Mix well. let it simmer for 6­7 minutes. It should be thick now.</p>
+            <p>How to check right consistency: Take ladleful of kheer and pour it back. Rice and Milk should fall together in the same flow. 
+            They should not be separated like earlier. Once you get this consistency then turn off the stove.</p>
+            <p>You can serve the rice kheer, hot or warm. or pour in serving bowls and refrigerate.</p>
+            <p>This rice kheer stays good for 1­2 days in the refrigerator.</p>
+            <p>Notes:Rose water can also be added to the rice kheer.</p>
+            <div class="ui-grid-a">
+                <div class="ui-block-a">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Home</a>
+                </div>
+                <div class="ui-block-b">
+                    <a href="#pagetwo" class="ui-btn" style="color:white; background-color:#000000" ;>Back</a>
+                </div>
+
+            </div>
+            <div data-role="footer">
+                <!-- data-theme="b" -->
+                <h1>Thankyou</h1>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
