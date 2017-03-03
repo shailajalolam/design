@@ -1,0 +1,22 @@
+﻿
+
+body
+{
+    height: 100%;
+    max-width:60% fixed;
+ 
+}
+
+
+.container-fluid {
+            
+            margin-left:60px;
+            margin-right:60px;
+            position: relative;
+            border-left: 6px solid grey;
+            border-right: 6px solid grey;
+        border-style: solid;
+        border-color: grey;
+        }
+
+
